@@ -1,4 +1,4 @@
-![TinyDB](https://i.ibb.co/9pWqrN3/tinydb.png)
+![TinyDB](https://i.ibb.co/LCjvLjr/tinydb2.png)
 
 TinyDB is my own DBMS. You send queries and get JSON data in return. 
 **It uses it's own query language which is very similar to SQL.** 
