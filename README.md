@@ -1,6 +1,8 @@
 # TinyDB
 TinyDB is my own DBMS. You send queries and get JSON data in return. 
-It uses it's own query language which is very similar to SQL.
+It uses it's own query language which is very similar to SQL. 
+Database users need to have certain permissions to perform certain actions such as create tables, 
+insert data to table or read data from table etc...
 
 ## Query Language
 Queries are separated with new line (\n) and semicolon (;)
