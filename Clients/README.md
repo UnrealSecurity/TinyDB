@@ -39,3 +39,14 @@ try {
 
 ?>
 ```
+
+### Python
+```python
+from TinyDB import TinyDB
+
+db = TinyDB('router.unrealsec.eu', 1338)
+db.auth('readonly', 'readonly')
+db.db('unrealsec')
+
+print(db.query("SELECT * FROM badips WHERE countryCode IS 'fi'"))
+```
