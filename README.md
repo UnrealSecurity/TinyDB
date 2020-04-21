@@ -41,7 +41,7 @@ CREATE TABLE members [UNIQUE id, TEXT username, PASSWORD password, TEXT first_na
 ```
 #### Insert new row to table. You have to provide value for every column (this might change in the future).
 ```sql
-INSERT INTO members VALUES [0, 'HeapOverride', '12345', 'Arran', 'Bishop', 1587076575533]
+INSERT INTO members VALUES [0, 'HeapOverride', '12345', 'Arran', 'Bishop', 1587076575533] KEY username
 ```
 #### Select and return data from table.
 ```sql
