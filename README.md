@@ -109,3 +109,20 @@ HAS      |
 AND      |   
 OR       |
 ```
+
+## Functions
+
+#### Return table's row count.
+```sql
+COUNT(table)
+```
+#### Return milliseconds from the unix epoch (unix timestamp). This function takes min 0 parameter and max 1 parameter. Provided number will be added to the returned timestamp value.
+```sql
+TIME()
+TIME(-1000)
+```
+#### Return hashed string for string
+**Use case:** when comparing passwords in SELECT clause.
+```sql
+HASH('Hello world!')
+```
