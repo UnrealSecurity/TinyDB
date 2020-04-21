@@ -149,3 +149,8 @@ N - create      X - delete
 R - read        A - admin
 W - write
 ```
+
+## About LIMIT, RANGE and KEY
+**``KEY columnName``** can be used with INSERT clause to prevent inserting two identical values.
+**``LIMIT n``** can be used with SELECT, DELETE and UPDATE clauses to exit after n succesful operations.
+**``RANGE [0, 100]``** can be used with SELECT, DELETE and UPDATE to limit operation to certain part within the table
