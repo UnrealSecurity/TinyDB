@@ -105,7 +105,7 @@ DOUBLE        - Double value (45.99)
 BOOL          - Boolean value (true, false)
 ```
 
-## Operators
+## Logical operators
 ```
 IS       |   ==
 NOT      |   !=
