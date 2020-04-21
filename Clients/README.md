@@ -1,7 +1,7 @@
 # Client modules to interact with TinyDB server
 
 ### JavaScript
-This also works in browsers though you probably don't want expose your credentials (depends).
+This also works in browsers though you probably don't want to expose your credentials (depends).
 Node.js dependencies: btoa, node-fetch
 ```js
 let db = new TinyDB('127.0.0.1', 1338)
