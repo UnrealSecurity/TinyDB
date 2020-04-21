@@ -52,7 +52,7 @@ SELECT first_name, last_name FROM members FROM members RANGE [COUNT(members, -25
 ```sql
 DROP DATABASE database
 ```
-#### Delete/drop table in current database.
+#### Delete/drop table in current database (this cannot be undone).
 ```sql
 DROP TABLE table
 ```
