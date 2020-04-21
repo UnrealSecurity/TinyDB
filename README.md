@@ -2,7 +2,7 @@
 TinyDB is my own DBMS. You send queries and get JSON data in return. 
 It uses it's own query language which is very similar to SQL.
 
-# Query Language
+## Query Language
 Queries are separated with new line (\n) and semicolon (;)
 
 #### Create new database with it's own users and tables.
@@ -79,4 +79,33 @@ COPY TABLE members TO members_backup
 #### Copy source database to destination database (cannot move to existing database, source database will not be deleted)
 ```sql
 COPY DATABASE src_database TO dest_database
+```
+
+## Data types
+- UNIQUE
+- PASSWORD
+- TEXT
+- INT
+- DOUBLE
+- BOOL
+- ~~LONG~~
+- ~~BIGINT~~
+- ~~BLOB~~
+- ~~OBJECT~~
+
+## Operators
+```md
+IS       |   ==
+NOT      |   !=
+         |   >=
+         |   <=
+         |   >
+         |   <
+END      |   
+BEGIN    |   
+LIKE     |   
+HAS      |   
+
+AND      |   
+OR       |
 ```
