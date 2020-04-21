@@ -4,7 +4,7 @@ It uses it's own query language which is very similar to SQL.
 Database users need to have certain permissions to perform certain actions such as create tables, 
 insert data to table or read data from table etc...
 
-**Server is not in Github just yet, however you can try to connect to my instance.**
+**Server is not in Github just yet, however you can try to connect to my test instance.**
 ```diff
 Host:        router.unrealsec.eu
 Port:        1338
