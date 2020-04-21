@@ -11,6 +11,9 @@ Port:        1338
 Database:    guests
 User:        guest
 Pass:        guest
+
+You have all permissions except administrator (A) meaning 
+that you cannot create new databases or users.
 ```
 
 ## Query Language
