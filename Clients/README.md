@@ -1,1 +1,1 @@
-# Modules to interact with TinyDB server
+# Client modules to interact with TinyDB server
