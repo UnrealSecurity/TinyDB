@@ -5,7 +5,7 @@ Database users need to have certain permissions to perform certain actions such 
 insert data to table or read data from table etc...
 
 **Server is not in Github just yet, however you can try to connect to my test instance.**
-```diff
+```yaml
 Host:        router.unrealsec.eu
 Port:        1338
 Database:    guests
@@ -106,7 +106,7 @@ BOOL          - Boolean value (true, false)
 ```
 
 ## Operators
-```md
+```
 IS       |   ==
 NOT      |   !=
          |   >=
