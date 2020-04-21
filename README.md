@@ -20,6 +20,13 @@ Please do not store sensitive information here as it can be accessed by another 
 This is a test server so do not assume it is reachable at all times.
 ```
 
+## Table of contents
+- [Query language](#query-language)
+- [Data types](#data-types)
+- [Logical operators](#logical-operators)
+- [Functions](#functions)
+- [Permissions](#permissions)
+
 ## Query Language
 Queries are separated with new line (\n) and semicolon (;)
 
