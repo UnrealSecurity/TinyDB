@@ -82,16 +82,14 @@ COPY DATABASE src_database TO dest_database
 ```
 
 ## Data types
-- UNIQUE
-- PASSWORD
-- TEXT
-- INT
-- DOUBLE
-- BOOL
-- ~~LONG~~
-- ~~BIGINT~~
-- ~~BLOB~~
-- ~~OBJECT~~
+```md
+UNIQUE
+PASSWORD
+TEXT
+INT
+DOUBLE
+BOOL
+```
 
 ## Operators
 ```md
