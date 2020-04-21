@@ -138,3 +138,10 @@ TIME(-1000)
 ```sql
 HASH('Hello world!')
 ```
+
+## Permissions
+```
+N - create      X - delete
+R - read        A - admin
+W - write
+```
