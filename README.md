@@ -14,6 +14,9 @@ Pass:        guest
 
 You have all permissions except administrator (A) meaning 
 that you cannot create/delete databases or users.
+
+Please do not store sensitive information here as it can be accessed by another user!
+This is a test server so do not assume it is reachable at all times.
 ```
 
 ## Query Language
