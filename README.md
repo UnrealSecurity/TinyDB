@@ -132,7 +132,7 @@ OR       |
 ```sql
 COUNT(table)
 ```
-#### Return milliseconds from the unix epoch (unix timestamp). This function takes min 0 parameter and max 1 parameter. Provided number will be added to the returned timestamp value.
+#### Return milliseconds from the unix epoch (unix timestamp). This function takes min 0 parameters and max 1 parameter. Provided number will be added to the returned timestamp value.
 ```sql
 TIME()
 TIME(-1000)
