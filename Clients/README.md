@@ -19,6 +19,9 @@ Console.ReadLine();
 This also works in browsers though you probably don't want to expose your credentials (depends).
 Node.js dependencies: btoa, node-fetch
 ```js
+// Include library for node.js
+// const TinyDB = require('./TinyDB.js');
+
 let db = new TinyDB('router.unrealsec.eu', 1338)
     .db('guests').auth('guest', 'guest');
 
