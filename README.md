@@ -102,7 +102,7 @@ COPY DATABASE src_database TO dest_database
 ## Data types
 ```
 UNIQUE        - Table has a counter and this value is increased by one every time data is inserted to table. Works like MySQL's AUTO INCREMENT)
-PASSWORD      - Column with this type is hashed with TinyDB's password hashing algorithm (SHA-256[salt + password])
+PASSWORD      - Column with this type is hashed -> SHA-256[salt + password]
 TEXT          - String value (Hello world!)
 INT           - Integer value
 DOUBLE        - Double value (45.99)
