@@ -1,11 +1,26 @@
 # Client modules to interact with TinyDB server
 
+# C#
+Dependencies: Json.net
+```csharp
+var db = new TinyDB("router.unrealsec.eu", 1338) {
+    Database = "unrealsec",
+    Username = "readonly",
+    Password = "readonly",
+};
+
+var results = db.Query("GET COUNT(badips)");
+
+Console.WriteLine((int)results[0]);
+Console.ReadLine();
+```
+
 ### JavaScript
 This also works in browsers though you probably don't want to expose your credentials (depends).
 Node.js dependencies: btoa, node-fetch
 ```js
-let db = new TinyDB('127.0.0.1', 1338)
-    .db('dev').auth('root', 'toor');
+let db = new TinyDB('router.unrealsec.eu', 1338)
+    .db('guests').auth('guest', 'guest');
 
 try {
     let data = await db.query(`
