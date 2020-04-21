@@ -24,3 +24,18 @@ try {
     console.error(err.toString());
 }
 ```
+
+### PHP
+```php
+<?php
+
+	include('TinyDB.php');
+	
+	$db = new TinyDB('router.unrealsec.eu', 1338);
+	$db->db('unrealsec')->auth('readonly', 'readonly');
+	
+	$results = $db->query("SELECT * FROM badips WHERE countryCode IS 'fi'");
+	echo '<pre>'.print_r($results, true).'</pre>';
+
+?>
+```
