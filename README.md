@@ -28,7 +28,7 @@ This is a test server so do not assume it is reachable at all times.
 - [Permissions](#permissions)
 
 ## Query Language
-Queries are separated with semicolon (;)
+Queries are separated with newline (\n) and semicolon (;)
 
 #### Create new database with it's own users and tables.
 ```sql
