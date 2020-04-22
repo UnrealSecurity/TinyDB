@@ -28,13 +28,13 @@ let db = new TinyDB('router.unrealsec.eu', 1338)
 try {
     let data = await db.query(`
         DROP TABLE users
-        CREATE TABLE users [UNIQUE id, TEXT username, TEXT email, BOOL admin];
-        INSERT INTO users VALUES [0, 'HeapOverride', 'arran.bishop89@aol.com', true];
-        INSERT INTO users VALUES [0, 'UnknownUser', 'unknown.user@example.com', false];
-        SELECT * FROM users;
-        SELECT * FROM users WHERE username LIKE 'heap';
-        LIST TABLES;
-        DROP TABLE users;
+        CREATE TABLE users [UNIQUE id, TEXT username, TEXT email, BOOL admin]
+        INSERT INTO users VALUES [0, 'HeapOverride', 'arran.bishop89@aol.com', true]
+        INSERT INTO users VALUES [0, 'UnknownUser', 'unknown.user@example.com', false]
+        SELECT * FROM users
+        SELECT * FROM users WHERE username LIKE 'heap'
+        LIST TABLES
+        DROP TABLE users
     `);
 
     console.log(data);
