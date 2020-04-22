@@ -54,6 +54,7 @@ INSERT INTO members VALUES [0, 'HeapOverride', '12345', 'Arran', 'Bishop', 15870
 ```sql
 SELECT * FROM members WHERE username IS 'HeapOverride' AND password IS HASH('12345') LIMIT 1
 SELECT first_name, last_name FROM members FROM members RANGE [COUNT(members, -25), COUNT(members)]
+SELECT address, hostname, service FROM badips WHERE hostname NOT '' AND service NOT '' AND hostname LIKE 'vodafone' ORDER BY hostname ASC LIMIT 100
 ```
 #### Delete/drop database (this cannot be undone).
 ```sql
