@@ -53,7 +53,9 @@ INSERT INTO members VALUES [0, 'HeapOverride', '12345', 'Arran', 'Bishop', 15870
 #### Select and return data from table.
 ```sql
 SELECT * FROM members WHERE username IS 'HeapOverride' AND password IS HASH('12345') LIMIT 1
+
 SELECT first_name, last_name FROM members FROM members RANGE [COUNT(members, -25), COUNT(members)]
+
 SELECT address, hostname, service FROM badips WHERE hostname NOT '' AND service NOT '' AND hostname LIKE 'vodafone' ORDER BY hostname ASC LIMIT 100
 ```
 #### Delete/drop database (this cannot be undone).
@@ -71,6 +73,7 @@ DELETE FROM members WHERE last_active < TIME(-31556952000) AND country NOT 'Finl
 #### Update column values in table where condition is met.
 ```sql
 UPDATE email IN members WHERE username == 'HeapOverride' ['arran.bishop89@aol.com'] LIMIT 1
+
 UPDATE username, email IN members WHERE username == 'HeapOverride' ['Old name is boring', 'arran.bishop89@aol.com'] LIMIT 1
 ```
 #### List all tables in current database.
@@ -88,6 +91,7 @@ HEAD table
 #### Get result of a function or just echo back string etc...
 ```sql
 GET HASH('hash me')
+
 GET COUNT(members)
 ```
 #### Move source table to destination table (cannot move to existing table)
