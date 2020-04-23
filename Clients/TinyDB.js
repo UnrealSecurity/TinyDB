@@ -1,6 +1,6 @@
 class TinyDB {
     endpoint = '';
-	database = '';
+    database = '';
     user = '';
     pass = '';
 
