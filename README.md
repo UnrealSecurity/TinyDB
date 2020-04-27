@@ -7,7 +7,7 @@ insert data to table or read data from table etc...
 
 **Server is not in Github just yet, however you can try to connect to my test instance.**
 ```yaml
-Host:        router.unrealsec.eu
+Host:        router.unrealsec.eu (leet.network for secure connection)
 Port:        1338
 Database:    guests
 User:        guest
