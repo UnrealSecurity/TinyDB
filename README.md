@@ -57,6 +57,8 @@ SELECT * FROM members WHERE username IS 'HeapOverride' AND password IS HASH('123
 SELECT first_name, last_name FROM members FROM members RANGE [COUNT(members, -25), COUNT(members)]
 
 SELECT address, hostname, service FROM badips WHERE hostname NOT '' AND service NOT '' AND hostname LIKE 'vodafone' ORDER BY hostname ASC LIMIT 100
+
+SELECT * FROM members LIMIT 25 JOIN messages ON members.id == messages.memberId LIMIT 5
 ```
 #### Delete/drop database (this cannot be undone).
 ```sql
