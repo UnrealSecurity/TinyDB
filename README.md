@@ -156,6 +156,14 @@ TIME(-1000)
 ```sql
 HASH('Hello world!')
 ```
+#### Information about the server along with CPU, memory and disk usage information
+```sql
+SERVERINFO()
+```
+#### Current user information
+```sql
+USERINFO()
+```
 
 ## Permissions
 ```
