@@ -59,6 +59,7 @@ try {
 ```
 
 ### Python
+Dependencies: requests
 ```python
 from TinyDB import TinyDB
 
